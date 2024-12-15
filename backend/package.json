@@ -1,0 +1,20 @@
+{
+  "name": "building-a-resume-parser",
+  "version": "1.0.0",
+  "description": "🚀 Objective Design and implement a Resume Parser capable of extracting structured information (e.g., name, contact details, work experience, skills, education) from resumes in various formats such as PDFs, Word documents, and plain text. Students can choose to use either non-LLM models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
